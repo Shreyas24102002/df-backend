@@ -24,7 +24,8 @@ const addVol = async (req, res, next) => {
     education,
     business,
     hobbies,
-    experience,
+    gender,
+    social,
     help,
   } = req.body;
 
@@ -38,7 +39,8 @@ const addVol = async (req, res, next) => {
     education,
     business,
     hobbies,
-    experience,
+    gender,
+    social,
     help,
   });
   try {
